@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/jobstore-recreation",
-  output: "export",
-  reactStrictMode: true,
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
-};
+    assetPrefix:'https://Cher98/jobstore-recreation',
+    output: "export",
+    reactStrictMode: true,
+  };
 
 export default nextConfig;
